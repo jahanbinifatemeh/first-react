@@ -1,0 +1,98 @@
+
+
+body {
+  background-color: #EFECE7;
+  margin: 0;
+  font-family: "GFS Didot", serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  border-radius: 30px;
+  border: 3px solid #C2A661;
+  height: 620px;
+  margin: 50px;
+  font-size: 1em;
+  
+}
+
+.header-nav {
+  border-top: 3px solid #C2A661;
+  font-size: 1.5em;
+  border-radius: 30px;
+  
+}
+
+.header-nav>nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  position: sticky;
+  margin: 0 auto;
+  background-color: #EFECE7;
+}
+
+.header-nav-ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+
+}
+
+.porofile {
+  margin: 50px;
+  height: auto;
+  display: flex;
+}
+
+.porofile-img {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+}
+
+.img-circle {
+  width: 112%;
+  height: auto;
+  position: absolute;
+  top:5.5%;
+  left: 17%;
+}
+
+.img-profilepic {
+  width: 78%;
+  height: auto;
+  position: absolute;
+  top:33.5%;
+  left: 33%;
+  
+}
+.porofile-text{
+  text-align: center;
+  padding: 0;
+  height: 100%;
+  margin-left: 50px;
+}
+
+.porofile-text > h1{
+  font-family: "GFS Didot", serif;
+  font-weight: 400;
+  margin-top: 0;
+  font-size: clamp(2rem, 5vw, 5em);
+}
+.porofile-text > h2{
+  font-family: "Miniver", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.porofile-text > p{
+  font-family: "Playfair Display", serif;
+  margin-top: -20px;
+  font-size: clamp(0.9rem, 2.5vw, 1.5em);
+}
